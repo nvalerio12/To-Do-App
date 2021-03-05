@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 
-function TodosContainer() {
-  return (
-    <h2>
-      I am the TodosContainer page
-    </h2>
-  );
-};
+export default function TodosContainer(){
+    return (
+        <div className='todosContainer'>
+            <h1>TodosContainer</h1>
+        </div>
+    );
+}
 
 export default TodosContainer;
